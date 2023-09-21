@@ -11,3 +11,9 @@ Attribute Information:
 - market_cap -Market value
 ### Objective:
 To understand if there if our data follows and trend or seasonality so we can further predict the bitcoin price ranges accordingly.
+
+## 2. Exploratory Data Analysis w.r.to Price
+### 2.1.1 Year to Date for last 3 years
+- We have data till Sep 2023 so lets calculate from Jan-Sep for last 3 years
+![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/22fb905d-a286-405f-a5f1-36af267e3fe2)
+
