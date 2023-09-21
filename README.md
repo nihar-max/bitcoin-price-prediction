@@ -17,3 +17,17 @@ To understand if there if our data follows and trend or seasonality so we can fu
 - We have data till Sep 2023 so lets calculate from Jan-Sep for last 3 years
 ![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/22fb905d-a286-405f-a5f1-36af267e3fe2)
 
+![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/d026a149-697c-456e-b5f6-3d862720ae24)
+**Observation**:
+- For YTD data from last 3 years there quite decrease in price of bitcoins continously from 2021-2023 as it follows the decreasing trend.
+ **Some key Points from the given visualization**:
+-  On April 16 2021 - Bitcoin price was the highest - 63.8k
+-  On June 19 2022 - Bitcoin price was the lowest  -19.01k
+
+### 2.1.2Total to Date for last 3 years
+![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/f86213e9-f792-459b-a7ad-6da0651b1806)
+![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/106129db-fa97-42f1-b72f-ee92537e4c8c)
+**Observation**:
+- For TTD data from last 3 years there is the decreasing trend.
+
+
