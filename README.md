@@ -35,6 +35,42 @@ To understand if there if our data follows and trend or seasonality so we can fu
 ### 2.1.3Resample Subplots from day level data to Month level
 ![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/eb01a024-d23a-4d09-83d6-2ac187ca9ca1)
 
-Imp Observation: As Market_cap & Price are highly correlated and in given sub-plot both are almost identical
+**Analysis**: As Market_cap & Price are highly correlated and in given sub-plot both are almost identical
+
+### Some Key Points
+- Price : Highest (68k) Nov 2021, Lowest(172 $) Jan 2015
+- Volume : Highest (179 Billion) Jan 2021 ,Lowest (26 Million) Jul 2015
+- Capital : Highest (1.28 Trillion) Nov 2021 ,Lowest (2.8 Billion) Jan 2015
+
+**Overall Observation**:
+- 2021 was a period where the Volume and Market_capital was highest and thus this is the major reason why people were maximum investing in Bitcoin.
+- So those who have invested in Bitcoin 2015 with only 172 $ due to its lower market value and kept on investing would have been highly benifited in 2021 and 2022 where in that period Bitcoin price was higher.
+- In 2021 there was sudden increase in Market value of 700B to 1.3T but again there is sudden decrease from 1.3T to 700B from 2022-2023,Thus decrease in Volume and Price
+
+#### So we can say that there is linear relationship between total_volume, market capital & price
+
+- Volume ↑ & Price ↑ = Market Value ↑
+- Volume ↓ & Price ↓ = Market Value ↓
+
+![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/8dd8bf3e-1d65-4f4f-ada3-12cbe6baf6ce)
+
+## Feature Engineering
+After adding new feature of Moving Average for Price for 7 days interval
+![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/55c8fa9c-3027-46f8-a62b-0609bad68ad8)
+
+- Observation: Market cap, Price, Pr_rolling 7 are almost identical to each other on Yearly basis data
+
+### Models used
+- Auto Arima.
+- Auti Time series using multiple models.
+- LSTM.
+
+### Modelling Task
+- Finally after trying multiple time series models we have applied LSTM with scaling our data with min max scaler by using window length for (7,15,25,30) multiple days to see if there is any pattern by running it for diffrent iterations.After running it for diffrent window length we got best MAE = 0.0592 for 30 day window which gave us almost nearby price prediction.
+- So we can say that with 30 day range our model can understand the pattern of price range in bitcoin in future as well
+
+![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/3f032c7f-8003-460a-89f2-0b4441ce6ee9)
+
+
 
 
