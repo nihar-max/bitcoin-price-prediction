@@ -68,6 +68,8 @@ After adding new feature of Moving Average for Price for 7 days interval
 ### Modelling Task
 - Finally after trying multiple time series models we have applied LSTM with scaling our data with min max scaler by using window length for (7,15,25,30) multiple days to see if there is any pattern by running it for diffrent iterations.After running it for diffrent window length we got best MAE = 0.0592 for 30 day window which gave us almost nearby price prediction.
 - So we can say that with 30 day range our model can understand the pattern of price range in bitcoin in future as well
+![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/9223cb9c-5545-402c-9837-5af24c9e71d1)
+
 
 ![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/3f032c7f-8003-460a-89f2-0b4441ce6ee9)
 
