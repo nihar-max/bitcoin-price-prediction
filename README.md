@@ -4,10 +4,10 @@ Bitcoin is a cryptocurrency that was created in January 2009. It is the world’
 Timespan: Jan 2015 - Sep 2023
 Data is available on basis of each day
 
-- Attribute Information:
-Date - Each data point consist of per day
-price - Bitcoin price in $
-total_volume - Total bitcoins available
-market_cap -Market value
+Attribute Information:
+- Date - Each data point consist of per day
+- price - Bitcoin price in $
+- total_volume - Total bitcoins available
+- market_cap -Market value
 ### Objective:
 To understand if there if our data follows and trend or seasonality so we can further predict the bitcoin price ranges accordingly.
