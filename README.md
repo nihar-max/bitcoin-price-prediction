@@ -18,6 +18,7 @@ To understand if there if our data follows and trend or seasonality so we can fu
 ![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/22fb905d-a286-405f-a5f1-36af267e3fe2)
 
 ![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/d026a149-697c-456e-b5f6-3d862720ae24)
+
 **Observation**:
 - For YTD data from last 3 years there quite decrease in price of bitcoins continously from 2021-2023 as it follows the decreasing trend.
  **Some key Points from the given visualization**:
@@ -27,7 +28,13 @@ To understand if there if our data follows and trend or seasonality so we can fu
 ### 2.1.2Total to Date for last 3 years
 ![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/f86213e9-f792-459b-a7ad-6da0651b1806)
 ![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/106129db-fa97-42f1-b72f-ee92537e4c8c)
+
 **Observation**:
 - For TTD data from last 3 years there is the decreasing trend.
+
+### 2.1.3Resample Subplots from day level data to Month level
+![image](https://github.com/nihar-max/bitcoin-price-prediction/assets/61958476/eb01a024-d23a-4d09-83d6-2ac187ca9ca1)
+
+Imp Observation: As Market_cap & Price are highly correlated and in given sub-plot both are almost identical
 
 
